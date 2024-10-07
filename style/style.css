@@ -6,6 +6,7 @@
         "wdth" 100;
 }
 
+
 /*------------------ common color or style ---------------------*/
 .text-primary {
     color: #FD6E0A;
@@ -25,11 +26,27 @@
     border: none;
 }
 
+.section-title {
+    font-size: 35px;
+    font-weight: 700;
+    color: rgb(24, 24, 24);
+}
+
+.section-description {
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(117, 117, 117);
+}
+
+.same-bg-color {
+    background-color: rgb(255, 248, 243);
+}
+
 /* ---------------------------Header----------------------------- */
-.banner{
+.header {
     background-image: url(../images/developer.png), url(../images/header_bg.png);
     background-repeat: no-repeat;
-    background-position: top left, bottom right;
+    background-position: left top, bottom right;
 }
 
 
@@ -62,12 +79,13 @@ nav ul li a {
 }
 
 /* ----------------------------------Banner Style------------------------------ */
-.banner{
+.banner {
     display: flex;
     justify-content: space-between;
     margin: 0 35px 0 220px;
 }
-.banner-content{
+
+.banner-content {
     max-width: 560px;
 }
 
@@ -88,6 +106,44 @@ nav ul li a {
     font-weight: 400;
     color: rgb(117, 117, 117);
 }
-.banner-img{
+
+.banner-img {
     width: 584px;
+}
+
+.banner-btn {
+    gap: 30px;
+}
+
+/* ----------------------------------------Main-------------------------------------- */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+/*----------------------------------- About Section---------------------------------- */
+
+.about {
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+
+.about-contacts {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-title {
+    font-size: 20px;
+    font-weight: 600;
+   color: rgb(117, 117, 117);
+}
+
+.contact-description {
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(71, 71, 71);
 }
