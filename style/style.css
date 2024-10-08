@@ -42,6 +42,13 @@
     background-color: rgb(255, 248, 243);
 }
 
+.text-center{
+    text-align: center;
+}
+
+
+
+
 /* ---------------------------Header----------------------------- */
 .header {
     background-image: url(../images/developer.png), url(../images/header_bg.png);
@@ -147,3 +154,5 @@ main {
     font-weight: 700;
     color: rgb(71, 71, 71);
 }
+
+/* ----------------------------What I do section--------------------------------- */
